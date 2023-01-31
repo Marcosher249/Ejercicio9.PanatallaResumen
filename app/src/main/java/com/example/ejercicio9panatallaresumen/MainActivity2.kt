@@ -38,8 +38,6 @@ class MainActivity2 : AppCompatActivity() {
                 val intent = Intent(this, MainActivity3::class.java)
                 intent.putExtra("especie",especie)
                 intent.putExtra("clase", clase)
-                println(especie.toString() + " " + clase)
-                println("dfasdfsadfsdafasdfasdfasdfasdfasdfasdfasdfasdf")
                 startActivity(intent)
             }
         }
